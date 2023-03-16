@@ -190,3 +190,5 @@ document.querySelector('#blog-btn').addEventListener('click', () =>{
   window.location.href='blog.html';
 
 })
+
+// Done
