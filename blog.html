@@ -7,7 +7,7 @@
     <title>Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-slate-500">
+  <body class="bg-neutral-900">
     <!-- blog page  -->
     <section class="bg-slate-100 w-9/12 mx-auto mt-8 p-5">
       <div class="p-5 shadow-xl">
@@ -53,19 +53,19 @@
           <span class="text-green-500 text-lg font-bold">Ans:</span> Event loop is just a guardian who keeps a good communication with Call Stack and Callback Queue. It checks if the call stack is free, then lets know the callback queue. Then Callback queue passes the callback function to Call stack to be executed. When all the callback functions are executed, the call stack is out and global execution context is free.
         </p>
         <br>
-        <!-- <p class="text-red-600 text-lg">
-            What is Event loop and how it works?
+        <p class="text-red-600 text-lg">
+            What is the work of quizTimer function?
         </p>
         <p>
-          <span class="text-green-500 text-lg font-bold">Ans:</span> Event loop is just a guardian who keeps a good communication with Call Stack and Callback Queue. It checks if the call stack is free, then lets know the callback queue. Then Callback queue passes the callback function to Call stack to be executed. When all the callback functions are executed, the call stack is out and global execution context is free.
+          <span class="text-green-500 text-lg font-bold">Ans:</span> The time taken to submit the quiz is counted with a timer using the quizTimer function. If dismissed then the timer will be off. Timer will run every 1 second using setinterval. The timer is set by converting the count value to minutes and taking it as a string.
         </p>
         <br>
         <p class="text-red-600 text-lg">
-            What is Event loop and how it works?
+           What is the work of chooseQuiz function?
         </p>
         <p>
-          <span class="text-green-500 text-lg font-bold">Ans:</span> Event loop is just a guardian who keeps a good communication with Call Stack and Callback Queue. It checks if the call stack is free, then lets know the callback queue. Then Callback queue passes the callback function to Call stack to be executed. When all the callback functions are executed, the call stack is out and global execution context is free.
-        </p> -->
+          <span class="text-green-500 text-lg font-bold">Ans:</span> The answers of the quiz are selected using the chooseQuiz function. Find the choose quiz using the find method in the answer array. The displayAnswers function shows the answers by pushing them into the answer array.
+        </p>
       </div>
     </section>
   </body>
